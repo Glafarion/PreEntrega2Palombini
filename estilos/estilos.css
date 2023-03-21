@@ -17,19 +17,12 @@ footer{
 
 nav ul{
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
     width: 90%;
-}
-
-.navB{
-    color: cornsilk;
-    text-transform: uppercase;
-    text-decoration: none;
+    margin-left: 70px;
 }
 
 .navB:hover{
@@ -293,16 +286,23 @@ p{
 }
 
 .videoImagen{
+    display: flex;
     border-radius: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 90%;
+    margin-left: 50px;
+    justify-content: space-between;
+
 }
 
 .destacBord{
     border: 5px solid black;
     border-radius: 30px;
+}
+
+.historiaGrid{
+
 }
 
 
@@ -376,4 +376,3 @@ p{
     background-color: blueviolet;
     border-radius: 15px;
 }
-
